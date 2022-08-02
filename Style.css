@@ -6,6 +6,10 @@ body{
 }
 #HomePage{
 }
+.text .ckb{
+    font-weight: bolder;
+    font-size: 50;
+}
 
 .textHeading{
     text-align: center;
@@ -17,10 +21,21 @@ body{
 @media (max-width:576px){
     .textHeading{
         /* background: red; */
-        align-items: none;
-        display: none;
-        padding: 0;
+        /* align-items: none;
+        display: none; */
+        padding: 15px 0;
         margin: 0;
+    }
+}
+@media (max-width:576px){
+    .warnning{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:576px){
+    .textHeading img{
+        width: 80;
     }
 }
 @media (max-width:576px){
@@ -112,9 +127,15 @@ tbody{
 .widget a{
     display: none;
 }
+/* .table {
+    color: red;
+    font-size: 10px;
+} */
 @media (max-width:576px){
-    .widget{
-        /* background: red; */
-        font-size: 8px;
+    .widget .table {
+        color: #002fff;
+        font-size: 10px;
+        padding-right: 0;
+        padding-left: 0;
     }
 }
