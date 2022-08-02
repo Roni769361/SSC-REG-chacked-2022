@@ -139,3 +139,17 @@ tbody{
         padding-left: 0;
     }
 }
+.icon{
+    position:absolute;
+    position: fixed;
+    bottom: 15;
+    right: 0px;
+
+    /* bottom: 15 end; */
+    
+    /* position:fixed */
+    /* position-absolute bottom-15 end-0 position-fixed */
+}
+.icon i{
+    color: #002fff !important;
+}
