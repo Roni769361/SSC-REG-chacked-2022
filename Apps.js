@@ -8,3 +8,9 @@ function RegistrationData(id){
     document.getElementById(id).style.display='none';
     document.getElementById("registrationData").style.display='block';
 }
+
+var loadingPage = document.getElementById("loading");
+
+function myfunction(){
+    loadingPage.style.display = 'none';
+}
