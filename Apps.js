@@ -11,6 +11,6 @@ function RegistrationData(id){
 
 var loadingPage = document.getElementById("loading");
 
-function myfunction(){
-    loadingPage.style.display = 'none';
-}
+// function myfunction(){
+//     loadingPage.style.display = 'none';
+// }
